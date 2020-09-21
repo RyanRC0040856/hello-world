@@ -36,5 +36,10 @@ namespace hello_world
         {
             MessageBox.Show("hello name 2" + txtbxname2.Text);
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye");
+        }
     }
 }
